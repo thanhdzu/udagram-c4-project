@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d0700d24-79ec-487e-8403-b565bef7f8e0",
+		"_postman_id": "03e65812-e1c8-4e92-b780-231b45e1f5ae",
 		"name": "Udacity C4 Project",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -19,10 +19,6 @@
 								"type": "text"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos",
 							"protocol": "https",
@@ -60,7 +56,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"name\": \"Water flowers\",\n\t\"dueDate\": \"2019-06-11\"\n}"
+							"raw": "{\n\t\"name\": \"Water flowers\",\n\t\"dueDate\": \"2023-06-19\"\n}"
 						},
 						"url": {
 							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos",
@@ -99,10 +95,10 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"name\": \"Change the world\",\n\t\"dueDate\": \"2019-12-11\",\n\t\"done\": true\n}"
+							"raw": "{\n\t\"name\": \"test 1234\",\n\t\"dueDate\": \"2023-12-11\",\n\t\"done\": false\n}"
 						},
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/35dd600f-43c2-4649-903c-615e1586a26f",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/22a0707f-2842-4413-ab99-61af4722e841",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -114,7 +110,7 @@
 							"path": [
 								"dev",
 								"todos",
-								"35dd600f-43c2-4649-903c-615e1586a26f"
+								"22a0707f-2842-4413-ab99-61af4722e841"
 							]
 						}
 					},
@@ -142,7 +138,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/fe671583-4512-45f6-9475-4265c04362fb",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/f49a9b43-c119-48b8-bd85-a537e03a800a",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -154,7 +150,7 @@
 							"path": [
 								"dev",
 								"todos",
-								"fe671583-4512-45f6-9475-4265c04362fb"
+								"f49a9b43-c119-48b8-bd85-a537e03a800a"
 							]
 						}
 					},
@@ -176,7 +172,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/3836b777-9bc4-4429-9b79-ba4e4f5f91c0/attachment",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/22a0707f-2842-4413-ab99-61af4722e841/attachment",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -188,7 +184,7 @@
 							"path": [
 								"dev",
 								"todos",
-								"3836b777-9bc4-4429-9b79-ba4e4f5f91c0",
+								"22a0707f-2842-4413-ab99-61af4722e841",
 								"attachment"
 							]
 						}
@@ -200,7 +196,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "ce2b42d4-8cc5-4f30-a6ed-e7f0f303c3fd",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -210,7 +205,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "efb16c49-3866-4241-97d1-360ad72736d8",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -224,7 +218,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "2e83c0fe-6650-44d5-a90f-4c27ff720d83",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -234,7 +227,6 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "977c227e-2df3-42eb-9a48-ec25e2f7eeae",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -244,15 +236,13 @@
 	],
 	"variable": [
 		{
-			"id": "bf208e6b-f66d-4008-9366-dd541ff65425",
 			"key": "apiId",
-			"value": "",
+			"value": "nce7dlroea",
 			"type": "string"
 		},
 		{
-			"id": "9bc6399a-d2bb-4f2d-9ffa-8480370d383c",
 			"key": "authToken",
-			"value": "",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlhtRjFlRmNZbzZGbHFKVDJVd0c3LSJ9.eyJpc3MiOiJodHRwczovL2Rldi03NGJzYTY0dWNjMWMycm51LnVzLmF1dGgwLmNvbS8iLCJhdWQiOiI2SWJWUmVHYUVlMjBaRUpMeVBPR09tUjlmeXpFR0RBZSIsImlhdCI6MTY4NzA3OTUxNCwiZXhwIjoxNjg3MTE1NTE0LCJzdWIiOiJnb29nbGUtb2F1dGgyfDExMjMzOTYxNjIzNzMxNTc2MDQ4OCIsImF0X2hhc2giOiJpcTNWc2luNlRjR09XTVpJVl9DVkFRIiwic2lkIjoieHgyQ1BoUWpqeUlyS3kyMGtBN2V4czBQenZxLVZ4U1UiLCJub25jZSI6IlIzY3NGZTdoN3lOcnAuUlBNTXMyeTZUNFUyTUI0eUhPIn0.ZgxL-1ketVJwD3MycE7tWrN6BSCbet6g0nchTDaJSrOqruFGIqawm2xC9wnqgATXb27MhuuVt6y18NUXOX2kbcXnKBjhKLl8jI2EB3eIcTOtRTYzGLSN--pP6jN6GfTWlDTaXcJPf-GeWKCeBwen_MVowC5MEcW9q9PkSyNMTNq_-PUygpvHVgnPzCN-9BOtol0z-2seCoA-tO-ZCF4Sjv_pSGmEDuKbGP1loaQbC-IUwMKYNDej6rqhs9tghrCOrHbHRziF-zrU3EirVhTC0h_H_mv5LHPzOeMBwdiCcc7qDX6NMsGpAU2xayCkpEI_znhepNqh0mADB-JuPTZhFQ",
 			"type": "string"
 		}
 	]
