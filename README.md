@@ -1,10 +1,50 @@
+Git repo: https://github.com/thanhdzu/udagram-c4-project
+
+# Deployed Server:
+This server has been deployed at https://nce7dlroea.execute-api.us-east-1.amazonaws.com/dev/
+
+Please use this link to test the API!
+
+## Functionality of the application
+
+This application will allow creating/removing/updating/fetching TODO items. Each TODO item can optionally have an attachment image. Each user only has access to TODO items that he/she has created.
+
+<div align="center">
+  <img src="./screenshots/todo_app.png" alt="Todo App" style="zoom:40%;" />
+</div>
+
+# Monitoring
+## Distributed tracing
+
+X-Ray tracing has been set up
+
+<div align="center">
+  <img src="./screenshots/x-ray.png" alt="1. X-Ray of the app" style="zoom:40%;" />
+</div>
+
+## Logging
+
+The starter code came with a configured [Winston](https://github.com/winstonjs/winston) logger that creates [JSON formatted](https://stackify.com/what-is-structured-logging-and-why-developers-need-it/) log statements. It is used to write log messages like this:
+
+<div align="center">
+  <img src="./screenshots/cloudwatch_logs.png" alt="CloudWatch logs" style="zoom:40%;" />
+</div>
+
+<div align="center">
+  <img src="./screenshots/logs.png" alt="CloudWatch logs" style="zoom:40%;" />
+</div>
+
+## Postman collection
+
+An alternative way to test your API, you can use the Postman collection that contains sample requests. You can find a Postman collection in this project.
+
+<div align="center">
+  <img src="./screenshots/postman.png" alt="Postman" style="zoom:40%;" />
+</div>
+
 # Serverless TODO
 
 To implement this project, you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all comments starting with the `TODO:` in the code to find the placeholders that you need to implement.
-
-# Functionality of the application
-
-This application will allow creating/removing/updating/fetching TODO items. Each TODO item can optionally have an attachment image. Each user only has access to TODO items that he/she has created.
 
 # TODO items
 
